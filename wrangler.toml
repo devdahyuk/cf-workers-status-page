@@ -1,7 +1,7 @@
 
 name = "cf-workers-status-page"
 workers_dev = true
-account_id = "ce3473fcc0a0b2af58ec5725d4ad0643"
+account_id = ""
 type = "webpack"
 webpack_config = "node_modules/flareact/webpack"
 
@@ -12,7 +12,7 @@ crons = ["*/2 * * * *"]
 bucket = "out"
 entry-point = "./"
 
-[env.production]
-kv-namespaces = [{binding="KV_STATUS_PAGE", id="7652596c976f4de39f43038c69ea3bf5", preview_id="7652596c976f4de39f43038c69ea3bf5"}]
-zone_id="3e74a1a2f1fbcf351958d90da79ffbfa"
-route="https://status.thewebag.top"
+#[env.production]
+#kv-namespaces = [{binding="KV_STATUS_PAGE", id="7652596c976f4de39f43038c69ea3bf5", preview_id="7652596c976f4de39f43038c69ea3bf5"}]
+#zone_id="3e74a1a2f1fbcf351958d90da79ffbfa"
+#route="https://status.thewebag.top"
