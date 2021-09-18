@@ -12,7 +12,7 @@ crons = ["*/2 * * * *"]
 bucket = "out"
 entry-point = "./"
 
-.[env.production]
-.kv-namespaces = [{binding="KV_STATUS_PAGE", id="7652596c976f4de39f43038c69ea3bf5", preview_id="7652596c976f4de39f43038c69ea3bf5"}]
-.zone_id="3e74a1a2f1fbcf351958d90da79ffbfa"
-.route="status.thewebag.top"
+#[env.production]
+#kv-namespaces = [{binding="KV_STATUS_PAGE", id="7652596c976f4de39f43038c69ea3bf5", preview_id="7652596c976f4de39f43038c69ea3bf5"}]
+#zone_id="3e74a1a2f1fbcf351958d90da79ffbfa"
+#route="status.thewebag.top"
